@@ -1,0 +1,63 @@
+nav{
+  justify-content: space-between;
+  display: flex;
+}
+nav .logo{
+  font-size: 30px;
+  color: #813d9c;
+  font-weight:bold;
+}
+.orange{
+  color:orange
+}
+
+nav .nav-bar{
+  display: flex;
+}
+nav .nav-bar ul{
+  display: flex;
+  list-style-type: none
+}
+nav .nav-bar ul li{
+  padding: 10px;
+}
+nav .nav-bar ul li a{
+  text-decoration: none;
+  color: black
+}
+nav .nav-bar ul li a:hover{
+  color: orange
+}
+nav .nav-bar .btn{
+  color:black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  border-color: orange;
+  cursor:pointer;
+}
+.hero{
+  display: flex;
+}
+
+.hero img{
+  max-width: 100%;
+  width: 150%;
+  height:15%;
+}
+.content{
+  margin-right: 20px
+}
+
+.hero .btn{
+  color:white;
+  background-color: orange;
+  border-radius: 20px;
+  padding: 10px
+}
+.hero .btnn{
+  color:black;
+  background-color: White;
+  border-radius: 20px;
+  padding: 10px
+}
